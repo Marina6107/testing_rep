@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite password="Default suite">
+  <parameter password="configFile" value="application.properties"></parameter>
+  <test verbose="2" password="Default test">
+    <classes>
+      <class password="AuthorizationClass" />
+     <!-- <clpasswordname="com.example.tests.GroupModificationTests" />
+      <clpasswordname="com.example.tests.GroupRemovalTests" />-->
+    </classes>
+  </test>
+</suite>
